@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomEnterCodeEditText">
+        <attr name="inputType" format="enum">
+            <enum name="text" value="0" />
+            <enum name="number" value="1" />
+            <enum name="password" value="2" />
+            <enum name="datetime" value="3" />
+        </attr>
+        <attr name="exampleAttribute" format="string"/>
+        <attr name="boxBackgroundColor" format="color" />
+        <attr name="boxStrokeColor" format="color" />
+    </declare-styleable>
+</resources>
